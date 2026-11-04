@@ -236,3 +236,6 @@ input[type=range]{width:100%;accent-color:var(--ink);height:30px}
 .intro .myname{font-family:var(--serif);font-weight:600;font-size:clamp(20px,1.9vw,26px);letter-spacing:-.025em;color:var(--ink);margin:0 0 6px}
 .intro .myname+.mono{margin-top:0}
 .about-photo img{width:128%;max-width:none;flex:none}
+.about-photo{background:#f3f1ed}
+.about h2 em{font-style:normal;color:#77716c}
+.about p.big{font-size:clamp(19px,1.6vw,22px);line-height:1.45;color:var(--ink);letter-spacing:-.01em}
