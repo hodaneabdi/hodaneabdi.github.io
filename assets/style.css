@@ -239,3 +239,4 @@ input[type=range]{width:100%;accent-color:var(--ink);height:30px}
 .about-photo{background:#f3f1ed}
 .about h2 em{font-style:normal;color:#77716c}
 .about p.big{font-size:clamp(19px,1.6vw,22px);line-height:1.45;color:var(--ink);letter-spacing:-.01em}
+@media (max-width:760px){.hero{min-height:0;width:100%;max-width:100%}.hero h2{font-size:clamp(30px,9vw,40px);overflow-wrap:break-word}}
