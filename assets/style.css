@@ -213,3 +213,6 @@ input[type=range]{width:100%;accent-color:var(--ink);height:30px}
 .about-photo{aspect-ratio:auto;border-radius:0;background:none}
 .about-photo img{width:100%}
 .about-photo img{-webkit-mask-image:linear-gradient(to bottom,#000 72%,transparent 100%);mask-image:linear-gradient(to bottom,#000 72%,transparent 100%)}
+.intro h1{font-size:clamp(30px,3.8vw,50px);line-height:1.08;letter-spacing:-.03em}
+.intro .lede{font-size:clamp(16px,1.3vw,18px)}
+.hbtn,.hbtn.dark{background:#fff;color:var(--ink);border-color:#d9d6d2}
