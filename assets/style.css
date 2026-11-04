@@ -210,3 +210,6 @@ input[type=range]{width:100%;accent-color:var(--ink);height:30px}
 .about-photo img{width:94%;height:auto;position:relative;z-index:1}
 .about h2{margin-top:16px}
 @media (max-width:760px){.about{grid-template-columns:1fr}.about-photo{max-width:340px}}
+.about-photo{aspect-ratio:auto;border-radius:0;background:none}
+.about-photo img{width:100%}
+.about-photo img{-webkit-mask-image:linear-gradient(to bottom,#000 72%,transparent 100%);mask-image:linear-gradient(to bottom,#000 72%,transparent 100%)}
