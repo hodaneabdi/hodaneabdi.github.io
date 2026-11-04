@@ -6,13 +6,13 @@
 <meta property="og:title" content="Fleet Capacity Optimization | Hodane Abdi"><meta property="og:description" content="Deciding whether a trucking company should repair 15 idle tractors instead of paying spot-market rates.">
 <meta property="og:image" content="https://hodaneabdi.github.io/assets/og.png"><meta property="og:type" content="website"><meta name="twitter:card" content="summary_large_image">
 <link rel="preload" href="../assets/fonts/tinos.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="../assets/style.css?v=202611041052">
+<link rel="stylesheet" href="../assets/style.css?v=202611041150">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='14' fill='%23f2a2e6'/%3E%3C/svg%3E">
 </head><body data-g="g-sun" style="--acc:#14b86a;--acc-t:#0b8a4e">
 <nav class="nav"><a href="../index.html">Hodane Abdi</a><div class="links"><a href="../index.html#work">Work</a><a href="../index.html#about">About</a><a href="https://www.linkedin.com/in/hodane-abdi/">LinkedIn</a></div></nav>
 
 <main class="wrap">
-<header class="cs-head"><p class="mono">Optimization · Logistics · MMA 861 team project · course case</p><h1>Should we spend $30,000 to fix trucks we aren't using?</h1><p class="lede">Deciding whether a trucking company should repair 15 idle tractors instead of paying spot-market rates.</p></header>
+<header class="cs-head"><p class="mono">Supply chain optimization · Logistics · MMA 861 team project · course case</p><h1>How much profit are idle trucks costing us every week?</h1><p class="lede">Deciding whether a trucking company should repair 15 idle tractors instead of paying spot-market rates.</p></header>
 <div class="hero grain g-sun light"><h2>Repair or outsource?</h2></div>
 <div class="glance"><h3>Impact at a glance</h3><div class="stats" data-stagger><div class="stat reveal"><div class="num" data-count="51">+$51K</div><div class="mono">Weekly profit</div><p>after paying the one-time $30K repair cost</p></div><div class="stat reveal"><div class="num">$5.4K</div><div class="mono">Break-even</div><p>average repair cost per truck before repair stops paying</p></div><div class="stat reveal"><div class="num">−22</div><div class="mono">Spot-market loads</div><p>of 377 weekly loads (203 down to 181)</p></div></div></div>
 <p class="statement reveal">Fifteen trucks sat in maintenance while overflow freight went out at three dollars a mile or more. The company's own trucks cost under a dollar.</p>
@@ -28,9 +28,9 @@
 <script>window.FL=[[2000, 15, 391200.75, 50979.61], [3500, 15, 368700.75, 28479.61], [5000, 15, 346200.75, 5979.61], [5250, 12, 342494.09, 2272.96], [5500, 5, 340746.68, 525.54]];</script></div><figcaption>Each setting is a separate run of the optimization model, solved to proven optimality. Above about $5,250 per truck the model starts leaving the least useful trucks idle; on average, repair pays up to about $5,399 per truck.</figcaption></figure><figure class="viz reveal"><div class="vcard"><div class="vhead"><p class="mono">Sensitivity</p><h5>And if spot-market prices move?</h5></div>
 <div class="readout three"><div><span class="big">+$27,803</span><span class="mono">spot rates −20%</span></div><div><span class="big">+$50,980</span><span class="mono">spot rates base</span></div><div><span class="big">+$74,204</span><span class="mono">spot rates +20%</span></div></div></div><figcaption>Weekly benefit of repairing, with spot rates 20% lower, unchanged and 20% higher. All 15 trucks are repaired in every case.</figcaption></figure><div class="body"><section class="reveal"><h4>What we recommended</h4><p>Approve the $30,000 repair budget, return all 15 trucks to the dispatch pool, and use the model for daily load assignment. Then track whether repaired trucks pass break-even, roughly 870 miles each, and consider buying more tractors if spot-market use stays high.</p></section></div><div class="body"><section class="reveal"><h4>Limits</h4><p>One representative week of data. Trucks are assumed able to start anywhere, so empty repositioning miles are not charged, and repaired trucks are assumed to stay in service with drivers available. Real savings will be somewhat lower.</p></section></div><div class="body"><section class="reveal"><h4>Tools</h4><div class='chips'><span>Python</span><span>Pyomo</span><span>HiGHS solver</span><span>pandas</span><span>Excel</span></div></section></div>
 <div class="body"><section class="reveal"><h4>The code</h4><p>Everything above can be checked and re-run.</p><p style="margin-top:16px"><a class="cta" href="https://github.com/hodaneabdi/analytics-portfolio/tree/main/fleet-capacity-optimization">View the code on GitHub →</a></p></section></div>
-<a class="next" href="statement-automation.html"><span class="mono">Next project</span><div class="t">Can month-end reporting run itself, and still be trusted?</div></a>
+<a class="next" href="statement-automation.html"><span class="mono">Next project</span><div class="t">Can monthly portfolio statements flow into the cloud and onto an executive dashboard, with no retyping?</div></a>
 </main>
 <footer class="mono"><span>© 2026 Hodane Abdi</span><span>Toronto</span></footer>
 <div class="tip" id="tip" role="status" aria-live="polite"></div>
-<script src="../assets/site.js?v=202611041052"></script>
+<script src="../assets/site.js?v=202611041150"></script>
 </body></html>
